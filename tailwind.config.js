@@ -6,12 +6,25 @@ module.exports = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+
     extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+      fontFamily:{
+        cinzel: ["Cinzel", "serif"],
+        sans: ["Nunito Sans", "sans-serif"],
+        courier: ["Courier Prime", "monospace"],
+        // mukta:["Mukta", "sans-serif"],
+        dm: ["DM Serif Display", "serif"],
       },
     },
   },
+      colors: {
+        background: "#15302d",
+        vgreen: "#1b4541",
+        tBlack: "#1d1d1f"
+      },
+
+      fontSize: {
+        base: "1.0625rem",
+      },
   plugins: [],
 };
