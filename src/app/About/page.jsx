@@ -49,7 +49,9 @@ const  About = () => {
                      <div className="col-span-2 mt-4 z-10 text-center" >
                         <h2 className='text-2xl font-dm font-bold text-white'>Vision</h2>
                         <p className='text-lg text-white mt-2'>At Vrindashrit Sewa Trust, we believe in leading by example, inspiring positive change through dedicated action and a collective spirit.
-                        <span className="hidden md:inline">Together, we can create an environment that nurtures both nature and the human spirit, upholding Vrindavan's legacy of reverence for life and all its gifts.</span></p>
+                        <span className="hidden md:inline">
+  Together, we can create an environment that nurtures both nature and the human spirit, upholding Vrindavan&apos;s legacy of reverence for life and all its gifts.
+</span>                        </p>
                      </div>
                 </div>
             </div>
