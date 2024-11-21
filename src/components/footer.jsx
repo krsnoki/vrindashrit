@@ -1,7 +1,7 @@
 "use client";
 import React from 'react';
 import Image from 'next/image';
-import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn } from 'react-icons/fa'; // Importing icons
+import { FaFacebookF, FaTelegram, FaInstagram } from 'react-icons/fa'; // Importing icons
 
 const Footer = () => {
   return (
@@ -17,17 +17,11 @@ const Footer = () => {
 
         {/* Social Media Icons */}
         <div className="flex gap-6">
-          <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
-            <FaFacebookF className="text-white text-2xl hover:text-emerald-600" />
+          <a href="https://t.me/Vrindashrit" target="_blank" rel="noopener noreferrer">
+            <FaTelegram className="text-white text-2xl hover:text-emerald-600" />
           </a>
-          <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
-            <FaTwitter className="text-white text-2xl hover:text-emerald-600" />
-          </a>
-          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.instagram.com/vrindashrit/" target="_blank" rel="noopener noreferrer">
             <FaInstagram className="text-white text-2xl hover:text-emerald-600" />
-          </a>
-          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
-            <FaLinkedinIn className="text-white text-2xl hover:text-emerald-600" />
           </a>
         </div>
 

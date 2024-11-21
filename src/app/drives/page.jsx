@@ -60,7 +60,7 @@ const DriveCarousel = () => {
                             {/* Main content */}
                             <div className='relative flex flex-col gap-3 text-white z-10 '>
                                 <motion.h5 className='text-xl lg:text-2xl font-bold bg-black bg-opacity-20 rounded-xl px-4 py-2'>{item.title}</motion.h5>
-                                <motion.h2 className='lg:text-[18px] font-semibold bg-black bg-opacity-20 rounded-xl px-4 py-2'>{item.content}</motion.h2>
+                                {/* <motion.h2 className='lg:text-[18px] font-semibold bg-black bg-opacity-20 rounded-xl px-4 py-2'>{item.content}</motion.h2> */}
                             </div>
                             <RxArrowTopRight className='absolute bottom-5 left-5 w-[35px] h-[35px] text-white group-hover:text-gray-400 group-hover:rotate-45 duration-100' /></Link>
                         </motion.div>
