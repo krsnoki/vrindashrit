@@ -46,7 +46,7 @@ const DriveCarousel = () => {
                     <SwiperSlide key={item.id}>
                         <motion.div 
                             onClick={() => setSelectedId(item.id)}
-                            className='flex flex-col gap-6 md:gap-4 mb-20 group relative shadow-lg text-white rounded-xl px-8 py-10 h-[40vh] w-[42vw] md:h-[45vh] md:w-[25vw] hover:shadow-2xl transition-all duration-300 transform hover:scale-105 active:scale-105 overflow-hidden cursor-pointer'
+                            className='flex flex-col gap-2 md:gap-4 mb-20 group relative shadow-lg text-white rounded-xl px-4 py-10 h-[40vh] w-[85vw] md:h-[45vh] md:w-[25vw] hover:shadow-2xl transition-all duration-300 transform hover:scale-105 active:scale-105 overflow-hidden cursor-pointer'
                         >
                             {/* Background image */}
                             <div
