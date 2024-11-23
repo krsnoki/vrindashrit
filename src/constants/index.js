@@ -1,8 +1,18 @@
 
   
   export const ServiceData = [
+
     {
       id: 1,
+      title: "Drive 3",
+      content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      backgroundImage: '/hero.jpg',
+      media:[
+
+      ],
+    },
+    {
+      id: 2,
       title: "Drive 1: 64 Mahanta Ghat Cleaning (Braj Cleaning)",
       content: "Lorem ipsum dolor sit /amet, consectetur adipiscing elit.",
       backgroundImage: '/64mahantSamadhi/DSC_0014.JPG',
@@ -57,7 +67,7 @@
       ],
     },
     {
-      id: 2,
+      id: 3,
       title: "Drive 2: Chamunda Ghat Cleaning (Yamuna Ji)",
       content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       backgroundImage: '/chamundaGhat/thumbnail.png',
@@ -84,14 +94,6 @@
         },
       ],
     },
-    {
-      id: 3,
-      title: "Drive 3",
-      content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      backgroundImage: '/hero.jpg',
-      media:[
-
-      ],
-    },
+   
    
   ];
