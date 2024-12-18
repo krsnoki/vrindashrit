@@ -4,7 +4,7 @@
 
     {
       id: 1,
-      title: "Drive 1",
+      title: "Drive 1: Yamuna Cleaning",
       content: "Cleanng drive at Yamuna Ghat.",
       backgroundImage: '/hero.jpg',
       media:[
