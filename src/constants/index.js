@@ -8,7 +8,50 @@
       content: "Cleanng drive at Yamuna Ghat.",
       backgroundImage: '/hero.jpg',
       media:[
-
+        // {
+        //   type: 'image',
+        //   url: '/drive1/1.jpeg', 
+        // },
+        // {
+        //   type: 'image',
+        //   url: '/drive1/2.jpeg', 
+        // }, 
+        {
+          type: 'image',
+          url: '/drive1/3.jpeg', 
+        }, 
+        {
+          type: 'video',
+          url: '/drive1/4.mp4', 
+        }, 
+        {
+          type: 'video',
+          url: '/drive1/5.mp4', 
+        },
+        {
+          type: 'video',
+          url: '/drive1/6.mp4', 
+        },
+        {
+          type: 'video',
+          url: '/drive1/7.mp4', 
+        },
+        {
+          type: 'video',
+          url: '/drive1/8.mp4', 
+        },
+        {
+          type: 'video',
+          url: '/drive1/9.mp4', 
+        },
+        {
+          type: 'video',
+          url: '/drive1/10.mp4', 
+        },
+        {
+          type: 'video',
+          url: '/drive1/11.mp4', 
+        },
       ],
     },
     {
