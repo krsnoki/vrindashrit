@@ -4,8 +4,8 @@
 
     {
       id: 1,
-      title: "Drive 3",
-      content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      title: "Drive 1",
+      content: "Cleanng drive at Yamuna Ghat.",
       backgroundImage: '/hero.jpg',
       media:[
 
@@ -13,8 +13,8 @@
     },
     {
       id: 2,
-      title: "Drive 1: 64 Mahanta Ghat Cleaning (Braj Cleaning)",
-      content: "Lorem ipsum dolor sit /amet, consectetur adipiscing elit.",
+      title: "Drive 2: 64 Mahanta Ghat Cleaning (Braj Cleaning)",
+      content: "Glimpses of cleaning and feedbacks from local people. Cleanliness is the liveliness.",
       backgroundImage: '/64mahantSamadhi/DSC_0014.JPG',
       media: [
         {
@@ -68,8 +68,8 @@
     },
     {
       id: 3,
-      title: "Drive 2: Chamunda Ghat Cleaning (Yamuna Ji)",
-      content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      title: "Drive 3: Chamunda Ghat Cleaning (Yamuna Ji)",
+      content: "Glimpses of Chamunda ghat cleaning by bramhacharis. The joy of service reflects on their faces.",
       backgroundImage: '/chamundaGhat/thumbnail.png',
       media: [
               {

@@ -16,8 +16,8 @@ const DriveCarousel = () => {
     const [selectedId, setSelectedId] = useState(null);
 
     return (
-        <div className='flex flex-col h-screen items-center bg-background'>
-            <h1 className='text-center font-semibold text-[#EBD5B8] text-4xl md:text-6xl sm:text-xl mx-auto px-2 font-sans py-20'>Our Drives</h1>
+        <div className='flex flex-col h-auto md:h-screen items-center bg-background md:my-[0rem] my-[2.5rem]'>
+            <h1 className='text-center text-[#EBD5B8] text-4xl  mb-[0.5em] md:6xl sm:xl mx-auto px-2 font-semibold font-cinzel'>Our Drives</h1>
             <Swiper
                 breakpoints={{
                     340: {

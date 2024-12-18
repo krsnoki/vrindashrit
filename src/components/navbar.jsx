@@ -54,7 +54,7 @@ const Navbar = () => {
               </a>
             </li>
             <li>
-              <a href="#support-us" className="md:hidden text-[#eff9f0] text-lg font-bold hover:text-gray-500" onClick={toggleMenu}>
+              <a href={`/support`} className="md:hidden text-[#eff9f0] text-lg font-bold hover:text-gray-500" onClick={toggleMenu}>
                 SUPPORT US
               </a>
             </li>
@@ -64,7 +64,7 @@ const Navbar = () => {
         {/* Donate Button */}
         <div className="hidden md:block">
           <button className="bg-[#234E4A] w-32 text-[#eff9f0] px-4 py-2 rounded-xl hover:bg-teal-500 font-bold font-sans text-lg">
-            Support
+            <a href={`/support`}>Support</a>
           </button>
         </div>
       </nav>
