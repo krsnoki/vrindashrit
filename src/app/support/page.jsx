@@ -20,7 +20,7 @@ const Support = () => {
 
 
     return (
-        <div className='flex flex-col h-auto md:h-screen items-center bg-background my-[2.5rem] md:px-[10rem] px-[3rem]'>
+        <div className='flex flex-col h-auto md:h-auto items-center bg-background my-[2.5rem] md:px-[10rem] px-[3rem]'>
         <h1 className='text-center text-[#EBD5B8] text-3xl md:text-4xl  m-[0.5em] font-semibold font-cinzel '>Contribute with Support</h1>
 
         <div className="flex items-center md:flex-row flex-col w-full h-auto m-[2rem]">
